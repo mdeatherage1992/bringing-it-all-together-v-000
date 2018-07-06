@@ -13,7 +13,7 @@ attr_reader :id
    CREATE TABLE dogs
    SQL
    DB[:conn].execute(sql)
-
+end
 
 
 
