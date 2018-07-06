@@ -37,7 +37,7 @@ end
       self.update
     else
       sql = <<-SQL
-        INSERT INTO songs (name, breed)
+        INSERT INTO dogs (name, breed)
         VALUES (?, ?)
       SQL
 
